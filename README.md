@@ -43,7 +43,7 @@ I spent 7 years running my own retail business before making the leap into cloud
 - DevOps automation
 - Ethical AI/ML on cloud platforms
 
-⚡ **Fun fact:** Running a retail business for 6 years means I've already spent years thinking about uptime, customer trust, and what happens when a "small" failure cascades — turns out that's basically the job description for cloud architecture too.
+⚡ **Fun fact:** Running a retail business for 7 years means I've already spent years thinking about uptime, customer trust, and what happens when a "small" failure cascades - turns out that's basically the job description for cloud architecture too.
 
 ## Completed Projects
 
