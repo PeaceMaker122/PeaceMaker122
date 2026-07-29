@@ -47,10 +47,10 @@ I spent 7 years running my own retail business before making the leap into cloud
 
 ## Completed Projects
 
-### 🔐 StartupCo — Cloud Security & IAM Hardening
+### 🔐 StartupCo: Cloud Security & IAM Hardening
 A portfolio consulting case study for a fictional fitness-tracking startup that launched fast and left security behind - 10 employees sharing root credentials, no MFA, no least-privilege access, no separation between dev and prod. This project takes that environment from "click-and-pray" to a governed, auditable baseline: role-based IAM groups (Developers, Operations, Finance, Data Analysts), enforced MFA policy, and a GuardDuty detection layer designed into the target-state architecture. The console-built environment was then codified into Terraform using declarative `terraform import`, verified against a clean `terraform plan` - proving the code matches the live account, not just the intended design. Documented with a clear scale-up path to a multi-account AWS Organizations model with centralized identity, policy-as-code guardrails, and CI-validated Terraform.
 
-### 🌐 Portfolio Site Deployment — Next.js on AWS via Terraform
+### 🌐 Portfolio Site Deployment: Next.js on AWS via Terraform
 A freelance client project: deploying a Next.js static portfolio site on AWS with full Infrastructure as Code ownership. The architecture serves the site through CloudFront backed by a private S3 bucket, locked down with Origin Access Control - the current AWS-recommended approach, replacing the legacy OAI method. Terraform manages the entire stack end-to-end, including S3 native state locking rather than the older DynamoDB-based approach, so the project reflects present-day best practice rather than a copy-pasted tutorial pattern.
 
 ## Links & Social Media
