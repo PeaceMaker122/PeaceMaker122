@@ -24,7 +24,7 @@ I spent 7 years running my own retail business before making the leap into cloud
 
 ## 🏅 Badges & Achievements
 
-<p align="center">
+<p align="left">
   <a href="https://www.credly.com/badges/683a7039-9c43-4a23-abcb-07c405b9cd72/public_url">
     <img src="aws-certified-cloud-practitioner.png" width="150" height="150" alt="AWS Certified Cloud Practitioner">
   </a>
