@@ -24,17 +24,17 @@ I spent 7 years running my own retail business before making the leap into cloud
 
 ## 🏅 Badges & Achievements
 
-<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+<p align="center">
   <a href="https://www.credly.com/badges/683a7039-9c43-4a23-abcb-07c405b9cd72/public_url">
-    <img src="./aws-certified-cloud-practitioner.png" width="150" height="150" alt="AWS Certified Cloud Practitioner">
+    <img src="aws-certified-cloud-practitioner.png" width="150" height="150" alt="AWS Certified Cloud Practitioner">
   </a>
   <a href="https://www.credly.com/badges/4f450030-f867-47d5-b328-cf65bc7a37fd/public_url">
-    <img src="./aws-certified-solutions-architect-associate.png" width="150" height="150" alt="AWS Certified Solutions Architect Associate">
+    <img src="aws-certified-solutions-architect-associate.png" width="150" height="150" alt="AWS Certified Solutions Architect Associate">
   </a>
   <a href="https://cloudengineeracademy.io/">
-    <img src="./academy-badge.png" width="150" height="150" alt="Cloud Engineering Academy Graduate">
+    <img src="academy-badge.png" width="150" height="150" alt="Cloud Engineering Academy Graduate">
   </a>
-</div>
+</p>
 
 ## 🤝 Open to Collaborate On
 
