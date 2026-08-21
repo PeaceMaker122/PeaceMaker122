@@ -69,6 +69,7 @@ A freelance client project: deploying a Next.js static portfolio site on AWS wit
 
 | Service  | URL |
 |----------|-----|
+| Website  | https://www.stiaan.dev |
 | GitHub   | https://github.com/PeaceMaker122 |
 | Medium   | https://medium.com/@PeaceMaker122 |
 | LinkedIn | https://www.linkedin.com/in/stiaan-terblanche |
