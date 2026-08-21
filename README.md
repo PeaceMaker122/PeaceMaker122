@@ -47,6 +47,11 @@ I spent 7 years running my own retail business before making the leap into cloud
 
 ## Completed Projects
 
+### 🖥️ [Cloud Engineering Portfolio Website](https://github.com/PeaceMaker122/03-Portfolio-Website-Public)
+A responsive Next.js and React portfolio built to present my cloud engineering experience through technical evidence rather than a conventional résumé alone. The site uses the App Router, structured TypeScript data, and a focused architecture-led design to bring together my professional background, capabilities, certifications, project work, contact details, and direct repository links. It is deployed through a GitHub-connected Vercel workflow, with content and presentation separated so profile information can be updated consistently.
+
+The website also includes a server-side AI Architecture Guide powered by the Vercel AI SDK and AI Gateway. It loads the documented project knowledge base from Markdown files and provides grounded answers about architecture decisions, security controls, trade-offs, and implementation choices without exposing credentials or inventing unsupported claims. An anonymous contact form adds server-side validation, honeypot bot protection, and a Resend delivery path, demonstrating practical attention to secure defaults, operational boundaries, and maintainable cloud application design.
+
 ### 🏥 [TechHealth Inc.: AWS Infrastructure Migration](https://github.com/PeaceMaker122/02-TechHealth-Inc-AWS-Migration)
 A healthcare infrastructure migration case study focused on moving a manually managed AWS patient-portal environment toward an auditable, repeatable platform with AWS CDK and TypeScript. The target design uses a two-Availability-Zone VPC, layered web/app/data architecture, Auto Scaling Groups, a Multi-AZ MySQL RDS database in private subnets, Secrets Manager, least-privilege security groups, and Systems Manager Session Manager instead of SSH.
 
