@@ -47,6 +47,13 @@ I spent 7 years running my own retail business before making the leap into cloud
 
 ## Completed Projects
 
+### ⚙️ [CloudPipe: CI/CD Pipeline Automation](https://github.com/PeaceMaker122/04-CloudPipe-Automation)
+A DevOps consulting case study for a small web development company whose developers deployed changes by manually uploading files to production - slow, error-prone, and stressful. This project replaces that workflow with a fully automated CI/CD pipeline: code pushed to GitHub is automatically reviewed, deployed to a private staging environment, and promoted to production only on merge to `main`, with the merge acting as the promotion gate.
+
+All infrastructure is defined as code with AWS CDK. GitHub Actions authenticates to AWS via OIDC instead of long-lived access keys, with three tightly scoped IAM roles using exact-match trust conditions so feature branches can only reach staging and only merges to `main` can reach production. The delivery layer serves the live site through CloudFront backed by fully private S3 buckets with OAC, HTTPS via ACM, and a real domain through Route 53. Each pull request is also scanned by an AI reviewer powered by Amazon Bedrock, which flags risky changes as a non-blocking comment for the human reviewer - and during the build it caught a real authentication-breaking issue.
+
+Rollback and monitoring were both tested end to end, not just documented: a deliberately broken deployment was restored using S3 object versioning plus a CloudFront cache invalidation, and a Lambda synthetic check with a CloudWatch alarm and SNS notification alerted the team when the live site failed. The production site was `stiaan.click`.
+
 ### 🖥️ [Cloud Engineering Portfolio Website](https://github.com/PeaceMaker122/03-Portfolio-Website-Public)
 A responsive Next.js and React portfolio built to present my cloud engineering experience through technical evidence rather than a conventional résumé alone. The site uses the App Router, structured TypeScript data, and a focused architecture-led design to bring together my professional background, capabilities, certifications, project work, contact details, and direct repository links. It is deployed through a GitHub-connected Vercel workflow, with content and presentation separated so profile information can be updated consistently.
 
