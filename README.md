@@ -47,6 +47,11 @@ I spent 7 years running my own retail business before making the leap into cloud
 
 ## Completed Projects
 
+### 🛒 [ShopMesh: Containerized Microservices Platform](https://github.com/PeaceMaker122/05-ShopMesh-Containerized-Microservices)
+A containerized microservices platform that decomposes a coupled product catalog and shopping cart application into independently deployable and scalable Node.js services. Docker Compose supports local multi-container development, while AWS CDK provisions the production platform on ECS Fargate with private service-to-service communication through ECS Service Connect. Catalog owns product data in Aurora Serverless v2 PostgreSQL, Cart owns cart data in DynamoDB, and Secrets Manager handles database credentials without hardcoding them.
+
+The platform uses a single HTTPS Application Load Balancer with path-based routing, private subnets for ECS tasks and databases, and ECR image scanning. GitHub Actions provides CI/CD with short-lived OIDC credentials, building and pushing only the affected service image through separate staging and production workflows. CloudWatch logs, Container Insights, alarms, EventBridge, a Lambda triage function, Amazon Bedrock, and SNS provide human-reviewed operational feedback. Failure testing deliberately triggered an unhealthy deployment and an application alarm, proving both ECS circuit-breaker rollback and the alarm-to-AI-triage notification path.
+
 ### ⚙️ [CloudPipe: CI/CD Pipeline Automation](https://github.com/PeaceMaker122/04-CloudPipe-Automation)
 A DevOps consulting case study for a small web development company whose developers deployed changes by manually uploading files to production - slow, error-prone, and stressful. This project replaces that workflow with a fully automated CI/CD pipeline: code pushed to GitHub is automatically reviewed, deployed to a private staging environment, and promoted to production only on merge to `main`, with the merge acting as the promotion gate.
 
