@@ -41,12 +41,12 @@ My portfolio mirrors real consulting engagements, not isolated tutorials. Every 
 
 ## 🤝 Open to Collaborate On
 
-- Cloud infrastructure & IaC projects
 - Cloud security and IAM design
-- DevOps automation
-- Ethical AI/ML on cloud platforms
+- AI-assisted security and operations on AWS (Bedrock, with humans making the final call)
+- Cloud infrastructure and IaC projects (Terraform, AWS CDK)
+- DevOps automation and CI/CD
 
-⚡ **Fun fact:** Running a retail business for 7 years means I've already spent years thinking about uptime, customer trust, and what happens when a "small" failure cascades - turns out that's basically the job description for cloud architecture too.
+⚡ **Fun fact:** Running a retail business for 7 years means I've already spent years thinking about uptime, customer trust, and what happens when a "small" failure cascades. Turns out that's basically the job description for cloud engineering too.
 
 ## Completed Projects
 
