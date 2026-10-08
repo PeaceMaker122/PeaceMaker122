@@ -4,17 +4,20 @@
 
 ## About Me
 
-I spent 7 years running my own retail business before making the leap into cloud computing. That experience taught me how to solve real problems for real people under real constraints - budget, time, things breaking at the worst moment - and I bring that same practical, ownership mindset to how I design and build cloud infrastructure. I'm currently deep in hands-on AWS and Infrastructure-as-Code work, building out a portfolio of projects that mirror real consulting engagements rather than isolated tutorials.
+I spent 7 years running a retail business and a nationwide e-commerce operation before moving into cloud. It taught me to solve real problems under real constraints: budget, time, and things breaking at the worst moment. I bring that same ownership mindset to cloud, with a focus on security and AI: infrastructure that is secure by design, cost-aware, and tested by breaking it on purpose, and AI that supports human decisions instead of replacing them.
+
+My portfolio mirrors real consulting engagements, not isolated tutorials. Every project comes with architecture diagrams, a decisions log, and evidence.
 
 ## 🛠️ Technical Expertise
 
-- **Cloud Platforms:** AWS (EC2, S3, IAM, VPC, Lambda, and Serverless architectures)
-- **Infrastructure as Code:** Terraform, AWS CDK, and CloudFormation
-- **Cloud Migration:** modernising legacy infrastructure into scalable, AWS-based solutions
-- **DevOps & Automation:** CI/CD pipelines, GitHub Actions, and deployment automation
-- **Cloud Security:** IAM policy design, MFA hardening, least-privilege access, network security, and security best practices
-- **Containers:** Docker, ECS, and Fargate
-- **AI in the Cloud:** exploring practical AI/ML integration on AWS
+- **Cloud Security:** least-privilege IAM, MFA enforcement, network segmentation, Secrets Manager, and short-lived OIDC credentials instead of stored keys (GuardDuty designed in Terraform)
+- **AI in the Cloud:** Amazon Bedrock integrations for PR security review, infrastructure template review and incident triage, with a human making the final call
+- **Infrastructure as Code:** Terraform, AWS CDK (TypeScript), and CloudFormation
+- **DevOps & Automation:** CI/CD with GitHub Actions, staging and production pipelines, and tested rollback
+- **Containers:** Docker, ECS, Fargate, and ECS Service Connect
+- **Observability:** CloudWatch, Container Insights, EventBridge, SNS, and Lambda-based health checks and triage
+- **Cloud Platforms:** AWS (EC2, S3, RDS, Aurora, DynamoDB, VPC, Lambda, CloudFront, Route 53)
+- **Cloud Migration:** modernising manually built infrastructure into repeatable, multi-AZ, three-tier AWS architectures
 
 ## 🏆 Certifications
 
